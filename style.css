@@ -1,0 +1,105 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f4f4f4;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero h1 span {
+  color: #ff4c60;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ff4c60;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 4rem 2rem;
+  background: #fff;
+  text-align: center;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.project-card {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 250px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+  gap: 1rem;
+}
+
+input, textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 5px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
